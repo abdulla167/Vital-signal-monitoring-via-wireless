@@ -1,0 +1,23 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.chart-horizontal-grid-lines {
+    -fx-stroke: none;
+}
+.chart-alternative-row-fill {
+    -fx-fill: transparent;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+}
+
+.axis {
+    -fx-tick-label-fill: #000;
+    -fx-tick-length: 20;
+    -fx-minor-tick-length: 10;
+}
+ 
+.axis-label {
+   -fx-text-fill: #000; 
+}
+
+.default-color0.chart-series-line { -fx-stroke: #e9967a; }
+.default-color1.chart-series-line { -fx-stroke: #f0e68c; }
+.default-color2.chart-series-line { -fx-stroke: #dda0dd; }
